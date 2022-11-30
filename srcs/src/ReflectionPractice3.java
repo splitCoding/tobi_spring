@@ -4,7 +4,7 @@ import java.lang.reflect.Constructor;
 public class ReflectionPractice3 {
     public static void main(String[] args) {
         try {
-            Class find = Class.forName("FindMe");
+            Class find = Class.forName("ReflectionPractice3$FindMe");
             Constructor[] constructors = find.getConstructors();
             for (Constructor constructor : constructors) {
                 System.out.println("constructor = " + constructor.getName());
@@ -18,20 +18,20 @@ public class ReflectionPractice3 {
             e.printStackTrace();
         }
     }
+    static class FindMe {
+        public FindMe() {
+        }
+
+        public FindMe(int a, int b) {
+        }
+    }
 }
 
-class FindMe {
-    public FindMe() {
-    }
-
-    public FindMe(int a, int b) {
-    }
-}
 
 /*
-constructor = FindMe
+constructor = ReflectionPractice3$FindMe
 ----
-constructor = FindMe
+constructor = ReflectionPractice3$FindMe
 0 param = int
 1 param = int
 ----
