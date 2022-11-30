@@ -1,3 +1,5 @@
+package Reflection;
+
 import java.lang.reflect.Constructor;
 
 //새로운 객체 생성하기
@@ -5,7 +7,7 @@ import java.lang.reflect.Constructor;
 public class ReflectionPractice6 {
     public static void main(String[] args) {
         try {
-            Class find = Class.forName("ReflectionPractice1");
+            Class find = Class.forName("Reflection.ReflectionPractice1");
             Constructor[] constructors = find.getDeclaredConstructors();
             for (Constructor constructor : constructors) {
                 int parameterCount = constructor.getParameterCount();
@@ -22,5 +24,5 @@ public class ReflectionPractice6 {
 }
 
 /*
-o.getClass() = class ReflectionPractice1
+o.getClass() = class Reflection.ReflectionPractice1
 */

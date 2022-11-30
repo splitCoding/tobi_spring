@@ -1,3 +1,5 @@
+package Reflection;
+
 import java.lang.reflect.Method;
 
 //메서드 정보로 메서드 호출하기

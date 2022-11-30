@@ -1,3 +1,5 @@
+package Reflection;
+
 import java.lang.reflect.Constructor;
 
 //객체이름으로 객체의 생성자 조회
@@ -29,9 +31,9 @@ public class ReflectionPractice3 {
 
 
 /*
-constructor = ReflectionPractice3$FindMe
+constructor = Reflection.ReflectionPractice3$FindMe
 ----
-constructor = ReflectionPractice3$FindMe
+constructor = Reflection.ReflectionPractice3$FindMe
 0 param = int
 1 param = int
 ----

@@ -1,3 +1,5 @@
+package Reflection;
+
 import java.lang.reflect.Method;
 
 //객체, 메서드 이름으로 메서드를 조회

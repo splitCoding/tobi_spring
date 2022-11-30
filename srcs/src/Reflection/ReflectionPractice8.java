@@ -1,3 +1,5 @@
+package Reflection;
+
 import java.lang.reflect.Array;
 
 //배열 생성, 사용
