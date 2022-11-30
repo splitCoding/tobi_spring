@@ -1,6 +1,7 @@
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 
+//객체 이름으로 필드 조회하기
 public class ReflectionPractice4 {
     public static void main(String[] args) {
         try {
